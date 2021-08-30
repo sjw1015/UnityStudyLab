@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/LouisFx_Test/Scene/MaskFlow.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
