@@ -19,6 +19,30 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_a134532be627427aacd4bcbf6bf5bb39:
+        m_Texture: {fileID: 2800000, guid: 7d3a074b276cb9c4ca3213eb3eb0a1c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a134532be627427aacd4bcbf6bf5bb39_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a134532be627427aacd4bcbf6bf5bb39_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a134532be627427aacd4bcbf6bf5bb39_3:
+        m_Texture: {fileID: 2800000, guid: 5c21db2a644e03a4eb05154d439d0d48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a134532be627427aacd4bcbf6bf5bb39_4:
+        m_Texture: {fileID: 2800000, guid: dd02c1bced44727498ece40878a7ae80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_d89ed75c20e2442db535caf080ea8034:
+        m_Texture: {fileID: 2800000, guid: dd02c1bced44727498ece40878a7ae80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_fa93f03b3aa14a75bd8ba0f49a01b769:
         m_Texture: {fileID: 2800000, guid: 50ae16e97cb080e489b9d102dddfa6f3, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -36,7 +60,24 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_f6fcaecf6f8843f9b33791abd36de2cf: 0.053
+    - Vector1_1: 1
+    - Vector1_9fa42e0841704cbc9306df0a3d825df0: 0.5
+    - Vector1_b53071d22aa84c82a41cdb842718af0f: 3
+    - Vector1_b53071d22aa84c82a41cdb842718af0f_1: 2
+    - Vector1_f6fcaecf6f8843f9b33791abd36de2cf: 0.101
+    - Vector1_fd79da511fad4d15a1de145fcebdb772: 5
+    - Vector1_fd79da511fad4d15a1de145fcebdb772_1: -0.92
     m_Colors:
+    - Color_1: {r: 1, g: 1, b: 1, a: 1}
+    - Color_1163dee1176f4ad981f9892e89e3158f: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_1: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_130043050dc24d5fa65c25d8bb0fe87a: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_2: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_20a4921c8f514eefb97b9d0954c7d916: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_3: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_4: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_429392d12aa34487a2822452b660bcf5: {r: 0, g: -0.1, b: 0, a: 0}
+    - Vector2_4bf1652259cf4986bfbe87c2a2b845d4: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_61d7cfb814d84530bba253f079155a4b: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - Vector2_8f14a936aa814379af4c0faf9a411a37: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
