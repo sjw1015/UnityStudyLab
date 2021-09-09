@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/LouisFx_Test/[R&D]Kaisi/Scene/Kaiji_Scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
