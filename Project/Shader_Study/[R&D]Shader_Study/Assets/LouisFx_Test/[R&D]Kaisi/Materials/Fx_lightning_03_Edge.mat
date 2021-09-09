@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fx_lightning_03_Edge
+  m_Shader: {fileID: -6465566751694194690, guid: 5f3d7b348a969e54193d6632b802fd71, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_add866a09cb4496c9fffc9112f0ff62d:
+        m_Texture: {fileID: 2800000, guid: 41e809075f30b0740bfc006c45aba368, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_bc58c8bc0ba74a9598965a7a14d93226:
+        m_Texture: {fileID: 2800000, guid: 3e96547632067b347b58f1beaabc18d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_232105df2f1b41d0a2155999bb1814e0: 1
+    - Vector1_1: 137
+    - Vector1_2: 37
+    - Vector1_200b477f7e3d4a879621ee722cc0c63e: 0.5
+    - Vector1_3: 77
+    - Vector1_4: 1.7
+    - Vector1_48e4abb3636d49ed88ca226c675c2232: 3
+    - Vector1_5: -2
+    - Vector1_52394f7c7f5b4fd3855d02ddf833602e: 100
+    - Vector1_6: -1
+    m_Colors:
+    - Color_17ad9a2bc1d14ccfb4d0aa94ac533552: {r: 0.25070095, g: 2.5308857, b: 0.38786852, a: 1}
+    - Vector2_479f900d6ae64b578c0eb31f998992f1: {r: 0, g: 0.25, b: 0, a: 0}
+    - Vector4_a638a19ba92745b0bcf8e6a5d76e5813: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
