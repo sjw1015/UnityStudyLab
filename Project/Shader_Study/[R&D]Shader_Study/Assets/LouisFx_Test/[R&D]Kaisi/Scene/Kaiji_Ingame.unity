@@ -282,7 +282,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &2014512917
+--- !u!1001 &1265545063945919921
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -398,11 +398,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas_InGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 8357712473998918889, guid: 4c4dce1988f99974dbe01cf22982de93,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4dce1988f99974dbe01cf22982de93, type: 3}
