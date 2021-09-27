@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_Additive_HDR_01
+  m_Name: Fx_Additive_HDR_01_Blue
   m_Shader: {fileID: -6465566751694194690, guid: 8f8a708a6fc5f8a4ca2f9db978c2f7b2,
     type: 3}
   m_ShaderKeywords: 
@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_1: {r: 3.8921266, g: 0.4650965, b: 0.4650965, a: 1}
-    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 3.349241, g: 1.1525317, b: 0.4950133,
+    - Color_1: {r: 0.8352111, g: 0.68782085, b: 2.3459606, a: 1}
+    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 0.12713087, g: 0.3594735, b: 0.8373102,
         a: 1}
   m_BuildTextureStacks: []

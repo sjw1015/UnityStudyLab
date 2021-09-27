@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_Dissolve_Change
-  m_Shader: {fileID: -6465566751694194690, guid: c9df58b8533329645964c3fd76d1812c,
+  m_Name: Shader Graphs_Fx_Dissolve_Change_p
+  m_Shader: {fileID: -6465566751694194690, guid: c8596acf212399e4da88ce5f5b797ff3,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,8 +20,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_1:
-        m_Texture: {fileID: 2800000, guid: 27cf5073fc98df842a95c17b93588886, type: 3}
+    - Main_tex:
+        m_Texture: {fileID: 2800000, guid: c8586ea28e966c04391cd007df0bbe0a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2:
@@ -30,10 +30,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_9d7b77a24c3d43258f3a0c768a4e7c83:
         m_Texture: {fileID: 2800000, guid: 2bf76329ddbec554cbd4da6d98a933f5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 13f8f0a27729d0e4bb594feeeefca5d2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -49,11 +45,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_33b6acfb58ca4f68866315d673316529: 0.5
-    - Vector1_44bfe33b8d5643c4817998defc3f733f: 96.82
-    - Vector1_d16bdd1c3e894e23b57e81786249b530: -0.66
-    - Vector1_f24f8f639a804d28ad1fa9e9b1be927d: 1.82
+    - Vector1_33b6acfb58ca4f68866315d673316529: 1
+    - Vector1_44bfe33b8d5643c4817998defc3f733f: 10
+    - Vector1_d16bdd1c3e894e23b57e81786249b530: 1
+    - Vector1_f24f8f639a804d28ad1fa9e9b1be927d: -1.4
     m_Colors:
-    - Color_043c0daa2de64372b105b7ec58bddc76: {r: 7.4071417, g: 4.211904, b: 2.7885711,
+    - Color_043c0daa2de64372b105b7ec58bddc76: {r: 20.865906, g: 13.437206, b: 8.848892,
         a: 1}
   m_BuildTextureStacks: []
