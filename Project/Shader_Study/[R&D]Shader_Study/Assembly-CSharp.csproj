@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,16 +53,13 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
-    <Compile Include="Assets\LouisFx_Test\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\Fx_Resources\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" />
@@ -101,7 +98,7 @@
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_Tess_StencilMask.shader" />
-    <None Include="Assets\LouisFx_Test\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
+    <None Include="Assets\Fx_Resources\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_Clipping.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_StencilMask.shader" />
@@ -118,9 +115,9 @@
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_StencilOut.shader" />
-    <None Include="Assets\LouisFx_Test\EffectExamples\Magic Effects\Shaders\Ice.shader" />
+    <None Include="Assets\Fx_Resources\EffectExamples\Magic Effects\Shaders\Ice.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_TransClipping_StencilOut.shader" />
-    <None Include="Assets\LouisFx_Test\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
+    <None Include="Assets\Fx_Resources\EffectExamples\Misc Effects\Shaders\Respawn.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_Transparent.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Transparent.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Tess_StencilMask.shader" />
@@ -164,7 +161,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader" />
-    <None Include="Assets\LouisFx_Test\Shader\URP_Basic_0929.shader" />
+    <None Include="Assets\Fx_Resources\Shader\URP_Basic_0929.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather.shader" />
     <None Include="Assets\Toon\Shader\Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader" />
@@ -178,7 +175,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_DoubleShadeWithFeather_Clipping.shader" />
     <None Include="Assets\Toon\Shader\Toon_ShadingGradeMap_Mobile_TransClipping.shader" />
-    <None Include="Assets\LouisFx_Test\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
+    <None Include="Assets\Fx_Resources\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
     <None Include="Assets\Toon\Shader\UCTS_ShadingGradeMap.cginc" />
     <None Include="Assets\Toon\Shader\UCTS_Outline.cginc" />
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_Tess_StencilMask.shader" />
@@ -204,8 +201,8 @@
     <None Include="Assets\Toon\Shader\Tess\Toon_ShadingGradeMap_TransClipping_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_Tess.shader" />
     <None Include="Assets\Toon\Shader\Tess\Toon_DoubleShadeWithFeather_TransClipping_Tess.shader" />
-    <None Include="Assets\LouisFx_Test\[R&amp;D]ToonStylized\Shader\Fx_Particle_CustomData_jinho.shader" />
-    <None Include="Assets\LouisFx_Test\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
+    <None Include="Assets\Fx_Resources\[R&amp;D]ToonStylized\Shader\Fx_Particle_CustomData_jinho.shader" />
+    <None Include="Assets\Fx_Resources\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\Toon\Shader\ToonColor_ShadingGradeMap.shader" />
     <None Include="Assets\Toon\Shader\Tess\ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
