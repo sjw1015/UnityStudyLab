@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_CoinBonus_P_02
+  m_Name: Fx_CoinBonus_P_001
   m_Shader: {fileID: -6465566751694194690, guid: 0589247ec5f7b7c4793e437422baf6db,
     type: 3}
   m_ShaderKeywords: 
@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_1: {r: 1.2589985, g: 0.3493111, b: 4.272347, a: 1}
-    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 0.4110289, g: 0.5319197, b: 2.309015,
+    - Color_1: {r: 4.272347, g: 0.88665307, b: 0.35789287, a: 1}
+    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 2.309015, g: 1.9599254, b: 0.42311797,
         a: 1}
   m_BuildTextureStacks: []

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_Additive_HDR_P_CoinEdge_003
-  m_Shader: {fileID: -6465566751694194690, guid: 0589247ec5f7b7c4793e437422baf6db,
+  m_Name: Fx_Dissolve_BonusC_03
+  m_Shader: {fileID: -6465566751694194690, guid: c8596acf212399e4da88ce5f5b797ff3,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,8 +20,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_2a74c037deab424cb75cc3bee90ab029:
-        m_Texture: {fileID: 2800000, guid: d9dc74de9070a80478991a7748db9132, type: 3}
+    - Main_tex:
+        m_Texture: {fileID: 2800000, guid: c8586ea28e966c04391cd007df0bbe0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_2:
+        m_Texture: {fileID: 2800000, guid: a27a749806f008742b98cfb6fd12e1a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9d7b77a24c3d43258f3a0c768a4e7c83:
+        m_Texture: {fileID: 2800000, guid: 2bf76329ddbec554cbd4da6d98a933f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,9 +44,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - Vector1_33b6acfb58ca4f68866315d673316529: 1
+    - Vector1_44bfe33b8d5643c4817998defc3f733f: 10
+    - Vector1_d16bdd1c3e894e23b57e81786249b530: 1
+    - Vector1_f24f8f639a804d28ad1fa9e9b1be927d: -1.4
     m_Colors:
-    - Color_1: {r: 4.236509, g: 1.892912, b: 0.8259856, a: 1}
-    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 5.8963375, g: 3.8857627, b: 1.0939742,
+    - Color_043c0daa2de64372b105b7ec58bddc76: {r: 13.339623, g: 14.386815, b: 40.98551,
         a: 1}
   m_BuildTextureStacks: []

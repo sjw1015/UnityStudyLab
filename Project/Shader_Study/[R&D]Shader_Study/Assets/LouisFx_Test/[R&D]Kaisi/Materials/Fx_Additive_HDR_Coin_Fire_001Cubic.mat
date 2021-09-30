@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fx_Additive_HDR_Coin_Fire_002
+  m_Name: Fx_Additive_HDR_Coin_Fire_001Cubic
   m_Shader: {fileID: -6465566751694194690, guid: 8f8a708a6fc5f8a4ca2f9db978c2f7b2,
     type: 3}
   m_ShaderKeywords: 
@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_1: {r: 0.9773737, g: 1.5362599, b: 5.550089, a: 1}
-    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 1.2593966, g: 0.9899389, b: 3.132344,
+    - Color_1: {r: 2.5864415, g: 1.697185, b: 1.3338879, a: 1}
+    - Color_67381e5f70cd4eeda7318928b00067c1: {r: 1.9856826, g: 1.2620543, b: 0.6494055,
         a: 1}
   m_BuildTextureStacks: []
